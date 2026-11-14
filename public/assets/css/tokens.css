@@ -1,0 +1,126 @@
+/* ==========================================================================
+   PURDUE THEME DESIGN TOKENS
+   Source of truth for all academy pages and custom components
+   ========================================================================== */
+
+:root {
+  /* ------------------------------------------------------------------------
+   * 1. Brand & Palette Colors
+   * ------------------------------------------------------------------------ */
+  --theme-primary: #2c7aff;               /* Core Theme Blue */
+  --theme-primary-hover: #1e65db;         /* Darker Blue for interactive states */
+  --theme-primary-rgb: 44, 122, 255;      /* RGB variant for alphas */
+  
+  --theme-heading: #1a2d62;               /* Deep Navy for titles and headings */
+  --theme-heading-rgb: 26, 45, 98;
+  
+  --theme-accent: #fec961;                /* Amber / Gold highlight */
+  --theme-accent-hover: #e5b045;
+  --theme-accent-rgb: 254, 201, 97;
+  
+  --theme-body: #555555;                  /* Default body typography color */
+  --theme-body-muted: #777777;            /* Meta, dates, small captions */
+  --theme-body-light: #999999;            /* Placeholders and inactive icons */
+
+  /* Surface & Background Colors */
+  --theme-bg-white: #ffffff;
+  --theme-bg-subtle: #f8faff;             /* Light section background */
+  --theme-bg-banner: #f9f4f1;             /* Top bar banner warm grey */
+  --theme-bg-soft-blue: #ebecff;          /* Feature tint background */
+  
+  /* Gradients */
+  --theme-gradient-hero: linear-gradient(to left, rgb(228, 242, 254), rgb(255, 238, 254));
+  --theme-gradient-card: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, #ffffff 100%);
+
+  /* Borders & Dividers */
+  --theme-border-color: #eeeeee;
+  --theme-border-subtle: rgba(207, 217, 249, 0.5);
+  --theme-border-focus: #2c7aff;
+
+  /* Functional Status Colors */
+  --theme-success: #198754;
+  --theme-success-bg: #d1e7dd;
+  --theme-warning: #ffc107;
+  --theme-warning-bg: #fff3cd;
+  --theme-danger: #dc3545;
+  --theme-danger-bg: #f8d7da;
+
+  /* ------------------------------------------------------------------------
+   * 2. Typography
+   * ------------------------------------------------------------------------ */
+  --theme-font-family: 'Lexend', sans-serif;
+  
+  --theme-font-size-body: 16px;
+  --theme-line-height-body: 26px;
+  
+  --theme-font-size-h1: 60px;
+  --theme-font-size-h2: 50px;
+  --theme-font-size-h3: 28px;
+  --theme-font-size-h4: 20px;
+  --theme-font-size-h5: 18px;
+  --theme-font-size-h6: 16px;
+  --theme-font-size-sm: 14px;
+  --theme-font-size-xs: 12px;
+
+  --theme-font-weight-light: 300;
+  --theme-font-weight-regular: 400;
+  --theme-font-weight-medium: 500;
+  --theme-font-weight-semibold: 600;
+  --theme-font-weight-bold: 700;
+  --theme-font-weight-extrabold: 800;
+
+  /* ------------------------------------------------------------------------
+   * 3. Spacing & Layout
+   * ------------------------------------------------------------------------ */
+  --theme-section-padding: 80px 0;
+  --theme-section-padding-mobile: 60px 0;
+  --theme-section-title-mb: 60px;
+  --theme-card-mb: 30px;
+  --theme-grid-gap: 24px;
+
+  /* ------------------------------------------------------------------------
+   * 4. Border Radius
+   * ------------------------------------------------------------------------ */
+  --theme-radius-xs: 4px;
+  --theme-radius-sm: 6px;
+  --theme-radius-md: 10px;
+  --theme-radius-lg: 15px;
+  --theme-radius-xl: 20px;
+  --theme-radius-pill: 100px;
+  --theme-radius-circle: 50%;
+
+  /* ------------------------------------------------------------------------
+   * 5. Box Shadows
+   * ------------------------------------------------------------------------ */
+  --theme-shadow-card: 0px 0px 150px 0px rgba(78, 67, 250, 0.1);
+  --theme-shadow-card-hover: 0px 15px 35px 0px rgba(44, 122, 255, 0.15);
+  --theme-shadow-team: 0 10px 40px -10px rgba(0, 64, 128, 0.09);
+  --theme-shadow-btn: 10px 15px 18px rgba(23, 23, 36, 0.1);
+  --theme-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+  --theme-shadow-floating: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  /* ------------------------------------------------------------------------
+   * 6. Transitions & Motion
+   * ------------------------------------------------------------------------ */
+  --theme-transition-fast: 0.2s ease;
+  --theme-transition-base: 0.3s ease;
+  --theme-transition-smooth: 0.5s ease;
+}
+
+/* ==========================================================================
+   UTILITY HELPER CLASSES BASED ON TOKENS
+   ========================================================================== */
+
+.theme-primary-text { color: var(--theme-primary) !important; }
+.theme-heading-text { color: var(--theme-heading) !important; }
+.theme-accent-text { color: var(--theme-accent) !important; }
+.theme-muted-text { color: var(--theme-body-muted) !important; }
+
+.theme-bg-subtle { background-color: var(--theme-bg-subtle) !important; }
+.theme-bg-soft-blue { background-color: var(--theme-bg-soft-blue) !important; }
+.theme-gradient-hero { background: var(--theme-gradient-hero) !important; }
+
+.theme-card-shadow { box-shadow: var(--theme-shadow-card) !important; }
+.theme-team-shadow { box-shadow: var(--theme-shadow-team) !important; }
+.theme-rounded-md { border-radius: var(--theme-radius-md) !important; }
+.theme-rounded-pill { border-radius: var(--theme-radius-pill) !important; }
