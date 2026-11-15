@@ -11,7 +11,7 @@ export default function AboutPage() {
       <Header />
       <main>
         <PageBanner
-          title="About Purdue Academy"
+          title="About Al Qasim Institute"
           breadcrumb={[{ label: "About Us" }]}
         />
 
@@ -23,7 +23,7 @@ export default function AboutPage() {
                 <div className="position-relative">
                   <img
                     src="/assets/images/all-img/about-image.webp"
-                    alt="About Purdue Academy"
+                    alt="About Al Qasim Institute Bannu"
                     className="w-100 rounded-4 shadow-sm"
                   />
                   <div
@@ -43,12 +43,12 @@ export default function AboutPage() {
                 <div className="ab_one_content">
                   <SectionTitle
                     subtitle="Empowering Ambitions"
-                    title="Purdue Academy of Science &"
+                    title="Al Qasim Institute of Science &"
                     highlight="Technology"
                     center={false}
                   />
                   <p className="text-muted mt-3 mb-4" style={{ lineHeight: "1.8" }}>
-                    Founded with a visionary commitment to modernize educational opportunities in Bannu City and Khyber Pakhtunkhwa, Purdue Academy delivers recognized professional diplomas, computer science degrees, language proficiency coaching, and vocational industrial training.
+                    Founded with a visionary commitment to modernize educational opportunities in Bannu City and Khyber Pakhtunkhwa, Al Qasim Institute delivers recognized professional diplomas, computer science degrees, language proficiency coaching, and vocational industrial training.
                   </p>
 
                   <div className="row g-3 mb-4">
@@ -69,8 +69,8 @@ export default function AboutPage() {
                   </div>
 
                   <div className="d-flex align-items-center gap-3">
-                    <Link href="/admissions" className="btn_one rounded-pill px-4 text-decoration-none">
-                      Explore Admissions <i className="fa-solid fa-arrow-right ms-1"></i>
+                    <Link href="/registration" className="btn_one rounded-pill px-4 text-decoration-none">
+                      Apply Online <i className="fa-solid fa-arrow-right ms-1"></i>
                     </Link>
                     <Link href="/contact" className="btn btn-outline-secondary rounded-pill px-4">
                       Visit Campus
@@ -87,8 +87,8 @@ export default function AboutPage() {
           <div className="container">
             <SectionTitle
               subtitle="Our Institutional Pillars"
-              title="Why Choose Purdue"
-              highlight="Academy?"
+              title="Why Choose Al Qasim"
+              highlight="Institute?"
               description="Our student-centric methodology bridges academic knowledge and practical workplace readiness."
             />
 

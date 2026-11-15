@@ -7,8 +7,20 @@ export default function Footer() {
         <div className="row">
           <div className="col-lg-3 col-sm-6 col-xs-12">
             <div className="single_footer">
-              <Link href="/">
-                <img src="/assets/images/all-img/logo.png" alt="Purdue Academy Logo" />
+              <Link href="/" className="d-flex align-items-center mb-3 text-decoration-none">
+                <img
+                  src="/assets/images/all-img/alqasim-logo-sm.png"
+                  alt="Al Qasim Institute Bannu"
+                  style={{ height: "60px", width: "auto" }}
+                />
+                <div className="ms-2 text-start">
+                  <span className="d-block fw-bold text-dark" style={{ fontSize: "16px", lineHeight: "1.2" }}>
+                    AL QASIM INSTITUTE
+                  </span>
+                  <span className="d-block text-primary fw-semibold" style={{ fontSize: "11px", letterSpacing: "1px" }}>
+                    BANNU CITY
+                  </span>
+                </div>
               </Link>
               <p>
                 Dedicated to providing modern, industry-standard IT training, professional language skills, and career empowerment for ambitious students.
@@ -43,7 +55,6 @@ export default function Footer() {
               <h4>Navigation</h4>
               <ul>
                 <li><Link href="/about">About Academy</Link></li>
-                <li><Link href="/admissions">Admissions</Link></li>
                 <li><Link href="/registration">Registration</Link></li>
                 <li><Link href="/courses">All Courses</Link></li>
                 <li><Link href="/departments">Departments</Link></li>
@@ -66,7 +77,7 @@ export default function Footer() {
               <div className="sf_contact">
                 <span className="ti-email"></span>
                 <h3>Email Address</h3>
-                <p>info@purdue-academy.edu</p>
+                <p>info@alqasim.edu.pk</p>
               </div>
               <div className="sf_contact">
                 <span className="ti-map"></span>
@@ -88,7 +99,7 @@ export default function Footer() {
         <div className="row fc mt-4 pt-3 border-top border-secondary">
           <div className="col-lg-6 col-sm-6 col-xs-12">
             <div className="footer_copyright">
-              <p>&copy; {new Date().getFullYear()} Purdue Academy. All Rights Reserved.</p>
+              <p>&copy; {new Date().getFullYear()} Al Qasim Institute Bannu. All Rights Reserved.</p>
             </div>
           </div>
           <div className="col-lg-6 col-sm-6 col-xs-12">

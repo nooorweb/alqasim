@@ -3,7 +3,7 @@
 export default function WhatsAppButton() {
   const whatsappNumber = "923001234567";
   const defaultMessage = encodeURIComponent(
-    "Hello Purdue Academy! I would like to inquire about admissions and diploma courses."
+    "Hello Al Qasim Institute! I would like to inquire about course registration and diploma programs."
   );
 
   return (

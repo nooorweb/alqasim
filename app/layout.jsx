@@ -20,8 +20,11 @@ import "../public/assets/css/style.css";
 import "../public/assets/css/tokens.css";
 
 export const metadata = {
-  title: "Purdue - Education & Online Course",
-  description: "Purdue Education & Online Course Website",
+  title: "Al Qasim Institute Bannu | Learn Today. Lead Tomorrow.",
+  description: "Al Qasim Institute Bannu - Dedicated to providing modern IT training, language mastery, and career empowerment in Bannu City.",
+  icons: {
+    icon: "/assets/images/all-img/alqasim-logo-sm.png",
+  },
 };
 
 export default function RootLayout({ children }) {

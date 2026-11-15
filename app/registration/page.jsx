@@ -541,7 +541,7 @@ export default function RegistrationPage() {
                                   onChange={handleChange}
                                 />
                                 <label className="form-check-label text-muted small" htmlFor="agreeTerms">
-                                  I certify that all supplied details are accurate and acknowledge the academic terms of Purdue Academy.
+                                  I certify that all supplied details are accurate and acknowledge the academic terms of Al Qasim Institute Bannu.
                                 </label>
                               </div>
                             </div>

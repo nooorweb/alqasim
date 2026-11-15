@@ -133,7 +133,7 @@ export default function CareersPage() {
             <SectionTitle
               subtitle="Join Our Faculty"
               title="Shape Future Generations at"
-              highlight="Purdue Academy"
+              highlight="Al Qasim Institute"
               description="We welcome passionate educators, certified trade trainers, and administrative professionals dedicated to transforming academic excellence."
             />
 

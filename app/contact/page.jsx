@@ -146,10 +146,10 @@ export default function ContactPage() {
                   </div>
                   <h3 className="fs-5 fw-bold text-dark mb-2">Email Inquiries</h3>
                   <p className="text-muted small mb-0">
-                    <a href="mailto:info@purdue-academy.edu" className="text-decoration-none text-muted d-block">
-                      info@purdue-academy.edu
+                    <a href="mailto:info@alqasim.edu.pk" className="text-decoration-none text-muted d-block">
+                      info@alqasim.edu.pk
                     </a>
-                    <span className="text-muted d-block">admissions@purdue-academy.edu</span>
+                    <span className="text-muted d-block">admissions@alqasim.edu.pk</span>
                   </p>
                 </div>
               </div>
@@ -272,7 +272,7 @@ export default function ContactPage() {
                     style={{ border: 0, minHeight: "400px" }}
                     allowFullScreen=""
                     loading="lazy"
-                    title="Purdue Academy Campus Location Map"
+                    title="Al Qasim Institute Campus Location Map"
                   ></iframe>
                 </div>
               </div>

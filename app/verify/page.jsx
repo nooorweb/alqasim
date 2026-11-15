@@ -259,7 +259,7 @@ export default function VerifyPage() {
                               style={{ width: "90px", height: "90px" }}
                             >
                               <img
-                                src={`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://purdue-academy.edu/verify?id=${result.certId}`}
+                                src={`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://alqasim.edu.pk/verify?id=${result.certId}`}
                                 alt="Verification QR Code"
                                 className="w-100 h-100"
                                 onError={(e) => {

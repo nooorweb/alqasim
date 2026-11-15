@@ -9,44 +9,200 @@ export default function HomePage() {
     <>
       <Header />
 
-      {/* START HOME */}
-      <section id="home" className="home_bg">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-sm-6 col-xs-12">
-                <div className="home_content">
-                  <h1>Purdue is the best choice for everyone!</h1>
-                  <p>It is a long established fact that reader will be distracted readable content of a page when looking at its layout.</p>
-                </div>
-                <div className="home_btn">
-                  <Link href="/courses" className="cta">
+      {/* START HOME HERO */}
+      <section
+        id="home"
+        className="home_bg position-relative overflow-hidden"
+        style={{
+          backgroundImage: "url(/assets/images/banner/bg-scaled.jpg)",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          minHeight: "680px",
+          height: "auto",
+          display: "flex",
+          alignItems: "center",
+          padding: "70px 0 60px 0",
+        }}
+      >
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6 col-12">
+              <div className="home_content" style={{ paddingTop: "0px" }}>
+                <span
+                  className="badge px-3 py-2 rounded-pill mb-3 fw-semibold"
+                  style={{
+                    backgroundColor: "rgba(44, 122, 255, 0.12)",
+                    color: "#2c7aff",
+                    fontSize: "13px",
+                  }}
+                >
+                  <i className="fa-solid fa-graduation-cap me-1"></i> Premier Academy in Bannu City
+                </span>
+                <h1
+                  style={{
+                    color: "#1a2d62",
+                    fontWeight: 700,
+                    fontSize: "44px",
+                    lineHeight: "1.25",
+                    marginBottom: "18px",
+                  }}
+                >
+                  Empower Your Future with <span style={{ color: "#2c7aff" }}>Practical Skills</span> &amp; Modern Education
+                </h1>
+                <p
+                  className="text-muted mb-4"
+                  style={{ fontSize: "16px", lineHeight: "1.7" }}
+                >
+                  Join Bannu's leading academy for Board-accredited IT diplomas, English language &amp; IELTS mastery, and certified vocational technical trades.
+                </p>
+
+                <div className="d-flex flex-wrap align-items-center gap-3 mb-4">
+                  <Link href="/courses" className="cta text-decoration-none">
                     <span>Explore Courses</span>
                     <svg width="13px" height="10px" viewBox="0 0 13 10">
                       <path d="M1,5 L11,5"></path>
                       <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
                   </Link>
+                  <Link
+                    href="/verify"
+                    className="btn btn-outline-primary rounded-pill px-4"
+                    style={{ height: "46px", display: "inline-flex", alignItems: "center" }}
+                  >
+                    <i className="fa-solid fa-shield-halved me-2"></i> Verify Certificate
+                  </Link>
+                </div>
+
+                {/* SEARCH BAR */}
+                <div className="hero_search_box mt-4" style={{ maxWidth: "520px" }}>
+                  <form
+                    action="/courses"
+                    method="get"
+                    className="d-flex align-items-center p-1 rounded-pill bg-white shadow-sm border"
+                    style={{ borderColor: "#e2e8f0" }}
+                  >
+                    <i className="fa-solid fa-magnifying-glass text-muted ms-3 me-2"></i>
+                    <input
+                      type="text"
+                      name="search"
+                      className="form-control border-0 bg-transparent shadow-none"
+                      placeholder="Search courses (e.g. DIT, IELTS, Web Dev...)"
+                      style={{ height: "46px", fontSize: "14px" }}
+                    />
+                    <button
+                      type="submit"
+                      className="btn_one rounded-pill px-4 border-0 text-nowrap"
+                      style={{ height: "46px", position: "relative", top: 0, right: 0 }}
+                    >
+                      Search
+                    </button>
+                  </form>
+                </div>
+
+                {/* POPULAR TAGS */}
+                <div className="home_tag mt-3 d-flex flex-wrap align-items-center gap-2 small">
+                  <span className="fw-semibold text-dark">Popular:</span>
+                  <Link
+                    href="/courses?dept=it-cs"
+                    className="badge bg-white text-primary border rounded-pill px-3 py-2 text-decoration-none"
+                  >
+                    DIT Diploma
+                  </Link>
+                  <Link
+                    href="/courses?dept=languages"
+                    className="badge bg-white text-primary border rounded-pill px-3 py-2 text-decoration-none"
+                  >
+                    IELTS Mastery
+                  </Link>
+                  <Link
+                    href="/courses?dept=web-software"
+                    className="badge bg-white text-primary border rounded-pill px-3 py-2 text-decoration-none"
+                  >
+                    Web Development
+                  </Link>
+                  <Link
+                    href="/courses?dept=technical-vocational"
+                    className="badge bg-white text-primary border rounded-pill px-3 py-2 text-decoration-none"
+                  >
+                    Rigger Training
+                  </Link>
                 </div>
               </div>
-              <div className="col-lg-6 col-sm-6 col-xs-12">
-                <div className="home_me_img">
-                  <img src="/assets/images/all-img/home-image.png" className="img-fluid" alt="Hero illustration" />
-                  <div className="home_ps">
-                    <img src="/assets/images/icon/user2.svg" alt="" />
-                    <h2>7500+</h2>
-                    <span>Active student</span>
+            </div>
+
+            <div className="col-lg-6 col-12 d-none d-lg-block position-relative text-center">
+              <div className="position-relative d-inline-block">
+                <img
+                  src="/assets/images/all-img/home-image.png"
+                  className="img-fluid"
+                  alt="Student with laptop"
+                  style={{ maxHeight: "560px", objectFit: "contain" }}
+                />
+
+                {/* FLOATING BADGE 1: CERTIFIED STUDENTS */}
+                <div
+                  className="p-3 bg-white rounded-4 shadow-lg position-absolute d-flex align-items-center gap-3 border text-start"
+                  style={{
+                    bottom: "30px",
+                    left: "-20px",
+                    minWidth: "210px",
+                    borderColor: "#eef2f6",
+                    zIndex: 2,
+                  }}
+                >
+                  <div
+                    className="d-flex align-items-center justify-content-center rounded-circle flex-shrink-0"
+                    style={{
+                      width: "48px",
+                      height: "48px",
+                      backgroundColor: "rgba(25, 135, 84, 0.12)",
+                      color: "#198754",
+                      fontSize: "22px",
+                    }}
+                  >
+                    <i className="fa-solid fa-user-graduate"></i>
                   </div>
-                  <div className="home_ps2">
-                    <img src="/assets/images/icon/file2.svg" alt="" />
-                    <h2>4500+</h2>
-                    <span>Online Course</span>
+                  <div>
+                    <h3 className="fs-5 fw-bold text-dark mb-0">7,500+</h3>
+                    <span className="text-muted small">Certified Students</span>
+                  </div>
+                </div>
+
+                {/* FLOATING BADGE 2: ACCREDITED PROGRAMS */}
+                <div
+                  className="p-3 bg-white rounded-4 shadow-lg position-absolute d-flex align-items-center gap-3 border text-start"
+                  style={{
+                    top: "50px",
+                    right: "-15px",
+                    minWidth: "200px",
+                    borderColor: "#eef2f6",
+                    zIndex: 2,
+                  }}
+                >
+                  <div
+                    className="d-flex align-items-center justify-content-center rounded-circle flex-shrink-0"
+                    style={{
+                      width: "48px",
+                      height: "48px",
+                      backgroundColor: "rgba(44, 122, 255, 0.12)",
+                      color: "#2c7aff",
+                      fontSize: "22px",
+                    }}
+                  >
+                    <i className="fa-solid fa-award"></i>
+                  </div>
+                  <div>
+                    <h3 className="fs-5 fw-bold text-dark mb-0">45+</h3>
+                    <span className="text-muted small">Accredited Programs</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        {/* END HOME */}
+        </div>
+      </section>
+      {/* END HOME HERO */}
 
       {/* START COUNTER */}
       <section className="count_area counter_feature">
@@ -91,7 +247,7 @@ export default function HomePage() {
           <div className="row align-items-center">
             <div className="col-lg-6 col-sm-12 col-xs-12">
               <div className="ab_img">
-                <img src="/assets/images/all-img/about1.png" className="img-fluid" alt="About Purdue" />
+                <img src="/assets/images/all-img/about1.png" className="img-fluid" alt="About Al Qasim Institute" />
                 <div className="wc_year">
                   <h3><span>6k+</span> <br />Happy Clients</h3>
                 </div>
@@ -280,8 +436,8 @@ export default function HomePage() {
       <section className="marketing_content_area section-padding">
         <div className="container">
           <div className="section-title">
-            <h4>Why Choose Purdue</h4>
-            <h1>Find the best features of Purdue.</h1>
+            <h4>Why Choose Al Qasim</h4>
+            <h1>Find the best features of Al Qasim Institute.</h1>
           </div>
           <div className="row">
             <div className="col-lg-4 col-sm-6 col-xs-12">
@@ -735,7 +891,7 @@ export default function HomePage() {
         <div className="container">
           <div className="section-title text-center">
             <h4>Testimonials</h4>
-            <h1>What Students Say About Purdue</h1>
+            <h1>What Students Say About Al Qasim</h1>
           </div>
           <div className="row g-4">
             <div className="col-lg-4 col-md-6 col-12">

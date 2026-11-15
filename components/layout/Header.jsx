@@ -29,7 +29,7 @@ export default function Header() {
             <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div className="single-top-contact">
                 <i className="ti-email"></i>
-                <h4><a href="mailto:info@purdue-academy.edu">info@purdue-academy.edu</a></h4>
+                <h4><a href="mailto:info@alqasim.edu.pk">info@alqasim.edu.pk</a></h4>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
@@ -55,27 +55,34 @@ export default function Header() {
 
       {/* START NAVBAR */}
       <div id="navigation" className="navbar-light bg-faded site-navigation">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-2 col-6 align-self-center">
-              <div className="site-logo">
-                <Link href="/">
-                  <img src="/assets/images/all-img/logo.png" alt="Purdue Academy Logo" />
-                </Link>
-              </div>
+        <div className="container-fluid px-xl-4 px-3">
+          <div className="d-flex align-items-center justify-content-between flex-nowrap w-100">
+            {/* LOGO */}
+            <div className="site-logo flex-shrink-0 me-3">
+              <Link href="/" className="d-flex align-items-center text-decoration-none">
+                <img
+                  src="/assets/images/all-img/alqasim-logo-sm.png"
+                  alt="Al Qasim Institute Bannu"
+                  style={{ height: "52px", width: "auto", objectFit: "contain" }}
+                />
+                <div className="ms-2 d-none d-sm-flex flex-column text-start">
+                  <span className="fw-bold text-dark" style={{ fontSize: "15px", lineHeight: "1.2", letterSpacing: "0.5px" }}>
+                    AL QASIM INSTITUTE
+                  </span>
+                  <span className="text-muted fw-semibold" style={{ fontSize: "11px", letterSpacing: "1px" }}>
+                    BANNU
+                  </span>
+                </div>
+              </Link>
             </div>
 
-            <div className="col-lg-8 d-none d-lg-flex justify-content-center">
+            {/* NAV MENU */}
+            <div className="d-none d-xl-flex justify-content-center flex-grow-1 mx-2">
               <nav id="main-menu" role="navigation" aria-label="Main Navigation">
-                <ul>
+                <ul className="d-flex align-items-center flex-nowrap list-unstyled mb-0 gap-2" style={{ whiteSpace: "nowrap", fontSize: "14.5px" }}>
                   <li>
                     <Link href="/" className={isActive("/") ? "active" : ""}>
                       Home
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/admissions" className={isActive("/admissions") ? "active" : ""}>
-                      Admissions
                     </Link>
                   </li>
                   <li>
@@ -117,26 +124,25 @@ export default function Header() {
               </nav>
             </div>
 
-            <div className="col-lg-2 col-6 text-end align-self-center">
-              <div className="d-flex align-items-center justify-content-end gap-2">
-                <Link className="btn_one d-none d-sm-inline-block text-nowrap" href="/registration">
-                  Apply Online <i className="fa-solid fa-arrow-right ms-1"></i>
-                </Link>
-                <button
-                  type="button"
-                  className="btn btn-outline-primary d-lg-none"
-                  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                  aria-label="Toggle navigation"
-                >
-                  <i className={`fa-solid ${mobileMenuOpen ? "fa-xmark" : "fa-bars"}`}></i>
-                </button>
-              </div>
+            {/* CTA & MOBILE TOGGLE */}
+            <div className="flex-shrink-0 d-flex align-items-center gap-2 ms-2 pe-xl-2">
+              <Link className="btn_one d-none d-sm-inline-block text-nowrap px-3 py-2" href="/registration" style={{ fontSize: "14px" }}>
+                Apply Online <i className="fa-solid fa-arrow-right ms-1"></i>
+              </Link>
+              <button
+                type="button"
+                className="btn btn-outline-primary d-xl-none"
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                aria-label="Toggle navigation"
+              >
+                <i className={`fa-solid ${mobileMenuOpen ? "fa-xmark" : "fa-bars"}`}></i>
+              </button>
             </div>
           </div>
 
           {/* MOBILE MENU DROPDOWN */}
           {mobileMenuOpen && (
-            <div className="d-lg-none py-3 border-top mt-2 bg-white rounded shadow-sm px-3">
+            <div className="d-xl-none py-3 border-top mt-2 bg-white rounded shadow-sm px-3">
               <ul className="list-unstyled mb-0">
                 <li className="py-2 border-bottom">
                   <Link
@@ -145,15 +151,6 @@ export default function Header() {
                     className={isActive("/") ? "fw-bold text-primary" : "text-dark"}
                   >
                     Home
-                  </Link>
-                </li>
-                <li className="py-2 border-bottom">
-                  <Link
-                    href="/admissions"
-                    onClick={() => setMobileMenuOpen(false)}
-                    className={isActive("/admissions") ? "fw-bold text-primary" : "text-dark"}
-                  >
-                    Admissions
                   </Link>
                 </li>
                 <li className="py-2 border-bottom">

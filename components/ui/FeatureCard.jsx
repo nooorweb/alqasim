@@ -6,7 +6,7 @@ export default function FeatureCard({
   title,
   description,
   linkText = "Learn More",
-  href = "/admissions",
+  href = "/registration",
   variant = "primary",
 }) {
   return (

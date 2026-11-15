@@ -41,7 +41,7 @@ export async function POST(request) {
     return NextResponse.json(
       {
         success: true,
-        message: "Your message has been successfully received by Purdue Academy Admissions. Our team will contact you shortly.",
+        message: "Your message has been successfully received by Al Qasim Institute Admissions. Our team will contact you shortly.",
       },
       { status: 200 }
     );
