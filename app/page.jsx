@@ -210,30 +210,30 @@ export default function HomePage() {
           <div className="row">
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single-counter count_one">
-                <span className="ti-folder sc_one"></span>
-                <h2 className="counter-num">134</h2>
-                <p>Our Online Course</p>
+                <span className="ti-medall-alt sc_one"></span>
+                <h2 className="counter-num">10+</h2>
+                <p>Years of Academic Excellence</p>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single-counter count_two">
-                <span className="ti-medall-alt sc_two"></span>
-                <h2 className="counter-num">299</h2>
-                <p>Academic Programs</p>
+                <span className="ti-folder sc_two"></span>
+                <h2 className="counter-num">50+</h2>
+                <p>Certified Diplomas &amp; Courses</p>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single-counter count_three">
-                <span className="ti-id-badge sc_three"></span>
-                <h2 className="counter-num">684</h2>
-                <p>Certified Students</p>
+                <span className="ti-user sc_three"></span>
+                <h2 className="counter-num">7,500+</h2>
+                <p>Graduated Alumni</p>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single-counter count_four">
-                <span className="ti-user sc_four"></span>
-                <h2 className="counter-num">941</h2>
-                <p>Enrolled Students</p>
+                <span className="ti-id-badge sc_four"></span>
+                <h2 className="counter-num">98%</h2>
+                <p>Certification Success Rate</p>
               </div>
             </div>
           </div>
@@ -249,24 +249,24 @@ export default function HomePage() {
               <div className="ab_img">
                 <img src="/assets/images/all-img/about1.png" className="img-fluid" alt="About Al Qasim Institute" />
                 <div className="wc_year">
-                  <h3><span>6k+</span> <br />Happy Clients</h3>
+                  <h3><span>7k+</span> <br />Graduated Alumni</h3>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 col-sm-12 col-xs-12">
               <div className="ab_content">
-                <h2>Create, Learn &amp; grow your skills from anywhere.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et simply.</p>
+                <h2>Empowering Minds with Practical Technical &amp; Language Mastery</h2>
+                <p>Al Qasim Institute Bannu is a trusted hub for English communication, professional IT education, safety certifications, and career empowerment. Join us today to build skills that shape your future.</p>
               </div>
               <div className="abmv">
-                <i className="fa-regular fa-lightbulb"></i>
-                <h4>Discover the joy of lifelong learning</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor ut labore.</p>
+                <i className="fa-solid fa-desktop"></i>
+                <h4>Modern Computing &amp; Audio-Visual Labs</h4>
+                <p>High-speed workstations equipped for live software development, graphics rendering, and language listening practice.</p>
               </div>
               <div className="abmv">
-                <i className="fa-solid fa-satellite-dish"></i>
-                <h4>Build a real community</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor ut labore.</p>
+                <i className="fa-solid fa-certificate"></i>
+                <h4>Recognized Diplomas &amp; Verified Certifications</h4>
+                <p>Industry-aligned curricula recognized by technical boards with authentic online verification for every graduate.</p>
               </div>
               <div className="cta_two">
                 <Link href="/about" className="cta">
@@ -287,15 +287,16 @@ export default function HomePage() {
       <section className="tp_feature section-padding">
         <div className="container">
           <div className="section-title text-center">
-            <h4>Start Learning</h4>
-            <h1>Build Better skills, faster From Today.</h1>
+            <h4>Our Foundation</h4>
+            <h1>Built on Core Values That Shape Tomorrow's Leaders</h1>
+            <p>We are built on strong principles that guide educational excellence at Al Qasim Institute Bannu.</p>
           </div>
           <div className="row">
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_tp">
-                <h3>Award Winning</h3>
-                <i className="fa-solid fa-medal"></i>
-                <p>Lorem ipsum dolor sit amet consectetur notted adipisicing elit.</p>
+                <h3>Our Vision</h3>
+                <i className="fa-solid fa-eye"></i>
+                <p>To be a leading center of excellence empowering learners with practical knowledge, skills, and values to thrive globally.</p>
                 <Link href="/about" className="cta">
                   <span>Learn More</span>
                   <svg width="13px" height="10px" viewBox="0 0 13 10">
@@ -307,9 +308,9 @@ export default function HomePage() {
             </div>
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_tp st_one">
-                <h3>Quality Education</h3>
-                <i className="fa-solid fa-book-journal-whills"></i>
-                <p>Lorem ipsum dolor sit amet consectetur notted adipisicing elit.</p>
+                <h3>Our Mission</h3>
+                <i className="fa-solid fa-bullseye"></i>
+                <p>Deliver affordable, high-quality education in English, computing, and professional technical development.</p>
                 <Link href="/about" className="cta">
                   <span>Learn More</span>
                   <svg width="13px" height="10px" viewBox="0 0 13 10">
@@ -321,10 +322,10 @@ export default function HomePage() {
             </div>
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_tp st_two">
-                <h3>Expert Teachers</h3>
-                <i className="fa-solid fa-user-graduate"></i>
-                <p>Lorem ipsum dolor sit amet consectetur notted adipisicing elit.</p>
-                <Link href="/faculty" className="cta">
+                <h3>Core Values</h3>
+                <i className="fa-solid fa-heart"></i>
+                <p>Upholding the highest standards of integrity, excellence, innovation, and equal opportunity for every student.</p>
+                <Link href="/about" className="cta">
                   <span>Learn More</span>
                   <svg width="13px" height="10px" viewBox="0 0 13 10">
                     <path d="M1,5 L11,5"></path>
@@ -336,8 +337,8 @@ export default function HomePage() {
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_tp st_three">
                 <h3>Lifetime Support</h3>
-                <i className="fa-solid fa-headset"></i>
-                <p>Lorem ipsum dolor sit amet consectetur notted adipisicing elit.</p>
+                <i className="fa-solid fa-user-shield"></i>
+                <p>Dedicated academic counseling, career placement assistance, and continuous alumni mentorship.</p>
                 <Link href="/contact" className="cta">
                   <span>Learn More</span>
                   <svg width="13px" height="10px" viewBox="0 0 13 10">
@@ -356,70 +357,71 @@ export default function HomePage() {
       <section className="topic_content_p2 section-padding">
         <div className="container">
           <div className="section-title">
-            <h4>Start Learning</h4>
-            <h1>Popular Categories From Today.</h1>
+            <h4>Academic Departments</h4>
+            <h1>Explore Our Specialized Training Departments</h1>
+            <p>Career-focused disciplines equipping students with in-demand technical, linguistic, and vocational expertise.</p>
           </div>
           <div className="row">
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_tca sc_one">
-                <img src="/assets/images/icon/ct1.svg" alt="" />
-                <h2><Link href="/courses">IT &amp; Software</Link></h2>
-                <span>71 Courses</span>
+                <img src="/assets/images/icon/ct1.svg" alt="English Mastery" />
+                <h2><Link href="/departments">English Mastery &amp; IELTS</Link></h2>
+                <span>3 Programs</span>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_tca sc_two">
-                <img src="/assets/images/icon/ct2.svg" alt="" />
-                <h2><Link href="/courses">Digital Program</Link></h2>
-                <span>59 Courses</span>
+                <img src="/assets/images/icon/ct2.svg" alt="Diploma in IT" />
+                <h2><Link href="/departments">Diploma in IT (DIT)</Link></h2>
+                <span>1-Year Recognized</span>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_tca sc_three">
-                <img src="/assets/images/icon/ct3.svg" alt="" />
-                <h2><Link href="/courses">Finance Marketing</Link></h2>
-                <span>68 Courses</span>
+                <img src="/assets/images/icon/ct3.svg" alt="Web Development" />
+                <h2><Link href="/departments">Web Development</Link></h2>
+                <span>Full-Stack Track</span>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_tca sc_four">
-                <img src="/assets/images/icon/ct4.svg" alt="" />
-                <h2><Link href="/courses">Modern Physics</Link></h2>
-                <span>83 Courses</span>
+                <img src="/assets/images/icon/ct4.svg" alt="Graphic Design" />
+                <h2><Link href="/departments">Graphic Design &amp; Media</Link></h2>
+                <span>Creative Studio</span>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_tca sc_five">
-                <img src="/assets/images/icon/ct5.svg" alt="" />
-                <h2><Link href="/courses">Music Production</Link></h2>
-                <span>37 Courses</span>
+                <img src="/assets/images/icon/ct5.svg" alt="Computer Basics" />
+                <h2><Link href="/departments">Computer Basics &amp; CIT</Link></h2>
+                <span>6-Month Fast Track</span>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_tca sc_six">
-                <img src="/assets/images/icon/ct6.svg" alt="" />
-                <h2><Link href="/courses">Website Design</Link></h2>
-                <span>51 Courses</span>
+                <img src="/assets/images/icon/ct6.svg" alt="Cyber Security" />
+                <h2><Link href="/departments">Hardware &amp; Networks</Link></h2>
+                <span>Practical Lab</span>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_tca sc_seven">
-                <img src="/assets/images/icon/ct6.svg" alt="" />
-                <h2><Link href="/courses">UI/UX Design</Link></h2>
-                <span>38 Courses</span>
+                <img src="/assets/images/icon/ct6.svg" alt="Technical Trades" />
+                <h2><Link href="/departments">Safety &amp; Rigger Trades</Link></h2>
+                <span>Industrial Training</span>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_tca sc_eight">
-                <img src="/assets/images/icon/ct6.svg" alt="" />
-                <h2><Link href="/courses">Health &amp; Fitness</Link></h2>
-                <span>43 Courses</span>
+                <img src="/assets/images/icon/ct6.svg" alt="Office Automation" />
+                <h2><Link href="/departments">Office Automation</Link></h2>
+                <span>QuickBooks &amp; Office</span>
               </div>
             </div>
             <div className="col-lg-12 text-center">
               <div className="cc_btn">
-                <Link href="/courses" className="cta">
-                  <span>View All Categories</span>
+                <Link href="/departments" className="cta">
+                  <span>View All Departments</span>
                   <svg width="13px" height="10px" viewBox="0 0 13 10">
                     <path d="M1,5 L11,5"></path>
                     <polyline points="8 1 12 5 8 9"></polyline>
@@ -436,47 +438,28 @@ export default function HomePage() {
       <section className="marketing_content_area section-padding">
         <div className="container">
           <div className="section-title">
-            <h4>Why Choose Al Qasim</h4>
-            <h1>Find the best features of Al Qasim Institute.</h1>
+            <h4>Institutional Advantages</h4>
+            <h1>Why Choose Al Qasim Institute Bannu?</h1>
+            <p>Proven educational standards combining deep theoretical mastery with rigorous hands-on lab training.</p>
           </div>
           <div className="row">
             <div className="col-lg-4 col-sm-6 col-xs-12">
               <div className="single_feature_one">
                 <div className="sf_top">
-                  <i className="fa-solid fa-school"></i>
-                  <h2><Link href="/about">Learn More <br />Anywhere</Link></h2>
+                  <i className="fa-solid fa-user-graduate"></i>
+                  <h2><Link href="/about">Professional &amp; <br />Certified Trainers</Link></h2>
                 </div>
-                <p>The results with a friend who couldn’t believe it was written by an AI. is worth every Yaley and then some.</p>
+                <p>Learn directly from industry experts with proven track records and years of practical experience in modern education.</p>
                 <Link href="/about">Read More <i className="fa-solid fa-arrow-right"></i></Link>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-xs-12">
               <div className="single_feature_one">
                 <div className="sf_top">
-                  <i className="fa-solid fa-person-chalkboard"></i>
-                  <h2><Link href="/faculty">Expert <br />Instructor</Link></h2>
+                  <i className="fa-solid fa-laptop-code"></i>
+                  <h2><Link href="/courses">Practical Learning <br />Approach</Link></h2>
                 </div>
-                <p>The results with a friend who couldn’t believe it was written by an AI. is worth every Yaley and then some.</p>
-                <Link href="/faculty">Read More <i className="fa-solid fa-arrow-right"></i></Link>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 col-xs-12">
-              <div className="single_feature_one">
-                <div className="sf_top">
-                  <i className="fa-solid fa-people-group"></i>
-                  <h2><Link href="/about">Team <br />Management</Link></h2>
-                </div>
-                <p>The results with a friend who couldn’t believe it was written by an AI. is worth every Yaley and then some.</p>
-                <Link href="/about">Read More <i className="fa-solid fa-arrow-right"></i></Link>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 col-xs-12">
-              <div className="single_feature_one">
-                <div className="sf_top">
-                  <i className="fa-solid fa-book"></i>
-                  <h2><Link href="/courses">Course <br />Planning</Link></h2>
-                </div>
-                <p>The results with a friend who couldn’t believe it was written by an AI. is worth every Yaley and then some.</p>
+                <p>Hands-on training with real-world projects, live portfolios, and practical computer lab scenarios.</p>
                 <Link href="/courses">Read More <i className="fa-solid fa-arrow-right"></i></Link>
               </div>
             </div>
@@ -484,20 +467,40 @@ export default function HomePage() {
               <div className="single_feature_one">
                 <div className="sf_top">
                   <i className="fa-solid fa-chalkboard-user"></i>
-                  <h2><Link href="/about">Teacher <br />Monitoring</Link></h2>
+                  <h2><Link href="/about">Modern Teaching <br />Methods</Link></h2>
                 </div>
-                <p>The results with a friend who couldn’t believe it was written by an AI. is worth every Yaley and then some.</p>
+                <p>Interactive audio-visual labs, updated curricula, and individualized student mentoring for every skill level.</p>
                 <Link href="/about">Read More <i className="fa-solid fa-arrow-right"></i></Link>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-xs-12">
               <div className="single_feature_one">
                 <div className="sf_top">
-                  <i className="fa-solid fa-ticket"></i>
-                  <h2><Link href="/contact">24/7 Strong <br />Support</Link></h2>
+                  <i className="fa-solid fa-certificate"></i>
+                  <h2><Link href="/verify">Recognized <br />Certifications</Link></h2>
                 </div>
-                <p>The results with a friend who couldn’t believe it was written by an AI. is worth every Yaley and then some.</p>
-                <Link href="/contact">Read More <i className="fa-solid fa-arrow-right"></i></Link>
+                <p>Official diplomas recognized across domestic and international employment markets with online QR verification.</p>
+                <Link href="/verify">Read More <i className="fa-solid fa-arrow-right"></i></Link>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 col-xs-12">
+              <div className="single_feature_one">
+                <div className="sf_top">
+                  <i className="fa-solid fa-briefcase"></i>
+                  <h2><Link href="/careers">Career Placement <br />Support</Link></h2>
+                </div>
+                <p>Resume workshops, mock interviews, freelancing masterclasses, and corporate referral networks.</p>
+                <Link href="/careers">Read More <i className="fa-solid fa-arrow-right"></i></Link>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 col-xs-12">
+              <div className="single_feature_one">
+                <div className="sf_top">
+                  <i className="fa-solid fa-clock"></i>
+                  <h2><Link href="/registration">Flexible Batch <br />Schedules</Link></h2>
+                </div>
+                <p>Morning and evening shifts with dedicated male and female classes designed for student convenience.</p>
+                <Link href="/registration">Read More <i className="fa-solid fa-arrow-right"></i></Link>
               </div>
             </div>
           </div>
@@ -509,8 +512,9 @@ export default function HomePage() {
       <div className="best-course section-padding">
         <div className="container">
           <div className="section-title">
-            <h4>Popular Courses</h4>
-            <h1>Choose Our Top Courses</h1>
+            <h4>Featured Courses</h4>
+            <h1>Top-Rated Diplomas &amp; Certification Programs</h1>
+            <p>Industry-aligned training verified by leading technical boards with job-ready practical syllabi.</p>
           </div>
           <div className="course-list row">
             {/* Course 1 */}
@@ -518,44 +522,44 @@ export default function HomePage() {
               <div className="course-item d-flex">
                 <div className="course-inner">
                   <div className="course-img">
-                    <img src="/assets/images/course/c1.png" alt="course" />
-                    <div className="course-price">$150</div>
+                    <img src="/assets/images/course/c1.png" alt="English Proficiency & Spoken Mastery" />
+                    <div className="course-price">3 Months</div>
                   </div>
                   <div className="course-content">
-                    <div className="ccategory"><a href="#">Data Science</a></div>
-                    <h3><Link href="/courses">Professional Ceramic Moulding for Beginners</Link></h3>
+                    <div className="ccategory"><Link href="/departments">Language Department</Link></div>
+                    <h3><Link href="/courses">English Proficiency &amp; Spoken Mastery</Link></h3>
                     <div className="crating">
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
-                      <span>5.0 / 28 Rating</span>
+                      <span>4.9 / 1,200+ Students</span>
                     </div>
                     <div className="cmeta">
                       <span>
                         <svg fill="none" viewBox="0 0 20 20"><path stroke="#2c7aff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M14.376 6.25H3.126a.625.625 0 00-.626.625v8.75c0 .345.28.625.625.625h11.25c.346 0 .626-.28.626-.625v-8.75a.625.625 0 00-.625-.625z"/><path stroke="#2c7aff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M5 3.75h11.875a.625.625 0 01.625.625v9.375"/></svg>
-                        25 Lessons
+                        36 Sessions
                       </span>
                       <span className="cmtime">
                         <svg fill="none" viewBox="0 0 20 20"><path stroke="#2c7aff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M10 5.625V10h4.375"/><path stroke="#2c7aff" strokeMiterlimit="10" strokeWidth="1.5" d="M10 16.875a6.875 6.875 0 100-13.75 6.875 6.875 0 000 13.75z"/><path stroke="#2c7aff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15.303 2.045l2.652 2.652M2.045 4.697l2.652-2.652"/></svg>
-                        8 Hours
+                        3 Months
                       </span>
                     </div>
                   </div>
                 </div>
                 <div className="course-hover align-self-center">
                   <div className="chover_content">
-                    <div className="ccategory"><a href="#">Data Science</a></div>
-                    <h3><Link href="/courses">Professional Ceramic Moulding for Beginners</Link></h3>
-                    <div className="hcourse-price">$150.00</div>
-                    <p>Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor.</p>
+                    <div className="ccategory"><Link href="/departments">Language Department</Link></div>
+                    <h3><Link href="/courses">English Proficiency &amp; Spoken Mastery</Link></h3>
+                    <div className="hcourse-price">Rs. 15,000</div>
+                    <p>Advanced grammar, public speaking, interview preparation, and IELTS coaching.</p>
                     <div className="hcmeta">
                       <span>
-                        <img src="/assets/images/all-img/avator.png" alt="img" />
-                        <a href="#">Theme Ocean</a>
+                        <img src="/assets/images/all-img/avator.png" alt="Sir Arsalan" />
+                        <Link href="/departments">Sir Arsalan</Link>
                       </span>
-                      <span><i className="fa-solid fa-star"></i> 5.0 (2k)</span>
+                      <span><i className="fa-solid fa-star"></i> 4.9 (1.2k)</span>
                     </div>
                     <div className="text-center">
                       <Link href="/registration" className="cta">
@@ -576,44 +580,44 @@ export default function HomePage() {
               <div className="course-item d-flex">
                 <div className="course-inner">
                   <div className="course-img">
-                    <img src="/assets/images/course/c2.png" alt="course" />
-                    <div className="course-price">$120</div>
+                    <img src="/assets/images/course/c2.png" alt="Diploma in Information Technology (DIT)" />
+                    <div className="course-price">1 Year</div>
                   </div>
                   <div className="course-content">
-                    <div className="ccategory"><a href="#">Management</a></div>
-                    <h3><Link href="/courses">Ultimate Photoshop Training: From Beginner</Link></h3>
+                    <div className="ccategory"><Link href="/departments">IT Department</Link></div>
+                    <h3><Link href="/courses">Diploma in Information Technology (DIT)</Link></h3>
                     <div className="crating">
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
-                      <span>5.0 / 28 Rating</span>
+                      <span>5.0 / 2,400+ Students</span>
                     </div>
                     <div className="cmeta">
                       <span>
                         <svg fill="none" viewBox="0 0 20 20"><path stroke="#2c7aff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M14.376 6.25H3.126a.625.625 0 00-.626.625v8.75c0 .345.28.625.625.625h11.25c.346 0 .626-.28.626-.625v-8.75a.625.625 0 00-.625-.625z"/><path stroke="#2c7aff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M5 3.75h11.875a.625.625 0 01.625.625v9.375"/></svg>
-                        25 Lessons
+                        12 Months
                       </span>
                       <span className="cmtime">
                         <svg fill="none" viewBox="0 0 20 20"><path stroke="#2c7aff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M10 5.625V10h4.375"/><path stroke="#2c7aff" strokeMiterlimit="10" strokeWidth="1.5" d="M10 16.875a6.875 6.875 0 100-13.75 6.875 6.875 0 000 13.75z"/><path stroke="#2c7aff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15.303 2.045l2.652 2.652M2.045 4.697l2.652-2.652"/></svg>
-                        8 Hours
+                        KP BTE Recognized
                       </span>
                     </div>
                   </div>
                 </div>
                 <div className="course-hover align-self-center">
                   <div className="chover_content">
-                    <div className="ccategory"><a href="#">Management</a></div>
-                    <h3><Link href="/courses">Ultimate Photoshop Training: From Beginner</Link></h3>
-                    <div className="hcourse-price">$120.00</div>
-                    <p>Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor.</p>
+                    <div className="ccategory"><Link href="/departments">IT Department</Link></div>
+                    <h3><Link href="/courses">Diploma in Information Technology (DIT)</Link></h3>
+                    <div className="hcourse-price">Rs. 18,000</div>
+                    <p>Complete computer science fundamentals, office suite, database management, and programming.</p>
                     <div className="hcmeta">
                       <span>
-                        <img src="/assets/images/all-img/avator.png" alt="img" />
-                        <a href="#">Theme Ocean</a>
+                        <img src="/assets/images/all-img/avator.png" alt="Sir Ibrahim" />
+                        <Link href="/departments">Sir Ibrahim</Link>
                       </span>
-                      <span><i className="fa-solid fa-star"></i> 5.0 (2k)</span>
+                      <span><i className="fa-solid fa-star"></i> 5.0 (2.4k)</span>
                     </div>
                     <div className="text-center">
                       <Link href="/registration" className="cta">
@@ -634,44 +638,44 @@ export default function HomePage() {
               <div className="course-item d-flex">
                 <div className="course-inner">
                   <div className="course-img">
-                    <img src="/assets/images/course/c3.png" alt="course" />
-                    <div className="course-price">$170</div>
+                    <img src="/assets/images/course/c3.png" alt="Full-Stack Web & Software Development" />
+                    <div className="course-price">6 Months</div>
                   </div>
                   <div className="course-content">
-                    <div className="ccategory"><a href="#">Graphics</a></div>
-                    <h3><Link href="/courses">Basic Fundamentals of Interior &amp; Graphics Design</Link></h3>
+                    <div className="ccategory"><Link href="/departments">Software Department</Link></div>
+                    <h3><Link href="/courses">Full-Stack Web &amp; Software Development</Link></h3>
                     <div className="crating">
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
-                      <span>5.0 / 28 Rating</span>
+                      <span>4.8 / 950+ Students</span>
                     </div>
                     <div className="cmeta">
                       <span>
                         <svg fill="none" viewBox="0 0 20 20"><path stroke="#2c7aff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M14.376 6.25H3.126a.625.625 0 00-.626.625v8.75c0 .345.28.625.625.625h11.25c.346 0 .626-.28.626-.625v-8.75a.625.625 0 00-.625-.625z"/><path stroke="#2c7aff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M5 3.75h11.875a.625.625 0 01.625.625v9.375"/></svg>
-                        25 Lessons
+                        48 Lessons
                       </span>
                       <span className="cmtime">
                         <svg fill="none" viewBox="0 0 20 20"><path stroke="#2c7aff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M10 5.625V10h4.375"/><path stroke="#2c7aff" strokeMiterlimit="10" strokeWidth="1.5" d="M10 16.875a6.875 6.875 0 100-13.75 6.875 6.875 0 000 13.75z"/><path stroke="#2c7aff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15.303 2.045l2.652 2.652M2.045 4.697l2.652-2.652"/></svg>
-                        8 Hours
+                        6 Months
                       </span>
                     </div>
                   </div>
                 </div>
                 <div className="course-hover align-self-center">
                   <div className="chover_content">
-                    <div className="ccategory"><a href="#">Graphics</a></div>
-                    <h3><Link href="/courses">Basic Fundamentals of Interior &amp; Graphics Design</Link></h3>
-                    <div className="hcourse-price">$170.00</div>
-                    <p>Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor.</p>
+                    <div className="ccategory"><Link href="/departments">Software Department</Link></div>
+                    <h3><Link href="/courses">Full-Stack Web &amp; Software Development</Link></h3>
+                    <div className="hcourse-price">Rs. 20,000</div>
+                    <p>Modern frontend with HTML, CSS, JavaScript, React, and backend API integration.</p>
                     <div className="hcmeta">
                       <span>
-                        <img src="/assets/images/all-img/avator.png" alt="img" />
-                        <a href="#">Theme Ocean</a>
+                        <img src="/assets/images/all-img/avator.png" alt="Engr. Muhammad Qasim" />
+                        <Link href="/departments">Engr. M. Qasim</Link>
                       </span>
-                      <span><i className="fa-solid fa-star"></i> 5.0 (2k)</span>
+                      <span><i className="fa-solid fa-star"></i> 4.8 (950)</span>
                     </div>
                     <div className="text-center">
                       <Link href="/registration" className="cta">
@@ -692,44 +696,44 @@ export default function HomePage() {
               <div className="course-item d-flex">
                 <div className="course-inner">
                   <div className="course-img">
-                    <img src="/assets/images/course/c4.png" alt="course" />
-                    <div className="course-price">$140</div>
+                    <img src="/assets/images/course/c4.png" alt="Graphic Designing & Creative Media" />
+                    <div className="course-price">4 Months</div>
                   </div>
                   <div className="course-content">
-                    <div className="ccategory"><a href="#">Development</a></div>
-                    <h3><Link href="/courses">WordPress for Beginners – Master WordPress</Link></h3>
+                    <div className="ccategory"><Link href="/departments">Media Department</Link></div>
+                    <h3><Link href="/courses">Graphic Designing &amp; Creative Media</Link></h3>
                     <div className="crating">
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
-                      <span>5.0 / 28 Rating</span>
+                      <span>4.9 / 1,400+ Students</span>
                     </div>
                     <div className="cmeta">
                       <span>
                         <svg fill="none" viewBox="0 0 20 20"><path stroke="#2c7aff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M14.376 6.25H3.126a.625.625 0 00-.626.625v8.75c0 .345.28.625.625.625h11.25c.346 0 .626-.28.626-.625v-8.75a.625.625 0 00-.625-.625z"/><path stroke="#2c7aff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M5 3.75h11.875a.625.625 0 01.625.625v9.375"/></svg>
-                        25 Lessons
+                        32 Lessons
                       </span>
                       <span className="cmtime">
                         <svg fill="none" viewBox="0 0 20 20"><path stroke="#2c7aff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M10 5.625V10h4.375"/><path stroke="#2c7aff" strokeMiterlimit="10" strokeWidth="1.5" d="M10 16.875a6.875 6.875 0 100-13.75 6.875 6.875 0 000 13.75z"/><path stroke="#2c7aff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15.303 2.045l2.652 2.652M2.045 4.697l2.652-2.652"/></svg>
-                        8 Hours
+                        4 Months
                       </span>
                     </div>
                   </div>
                 </div>
                 <div className="course-hover align-self-center">
                   <div className="chover_content">
-                    <div className="ccategory"><a href="#">Development</a></div>
-                    <h3><Link href="/courses">WordPress for Beginners – Master WordPress</Link></h3>
-                    <div className="hcourse-price">$140.00</div>
-                    <p>Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor.</p>
+                    <div className="ccategory"><Link href="/departments">Media Department</Link></div>
+                    <h3><Link href="/courses">Graphic Designing &amp; Creative Media</Link></h3>
+                    <div className="hcourse-price">Rs. 12,000</div>
+                    <p>Adobe Photoshop, Illustrator, vector branding, logo design, and freelance portfolio building.</p>
                     <div className="hcmeta">
                       <span>
-                        <img src="/assets/images/all-img/avator.png" alt="img" />
-                        <a href="#">Theme Ocean</a>
+                        <img src="/assets/images/all-img/avator.png" alt="Sir Farhan" />
+                        <Link href="/departments">Sir Farhan</Link>
                       </span>
-                      <span><i className="fa-solid fa-star"></i> 5.0 (2k)</span>
+                      <span><i className="fa-solid fa-star"></i> 4.9 (1.4k)</span>
                     </div>
                     <div className="text-center">
                       <Link href="/registration" className="cta">
@@ -762,13 +766,13 @@ export default function HomePage() {
             </div>
             <div className="col-lg-6 col-sm-12 col-xs-12">
               <div className="cp_content">
-                <h4>Best Online Learning Platform</h4>
-                <h2>One Platform &amp; Many Courses For You</h2>
-                <p>From practical skills to advanced certifications, build your professional career with expert mentorship and recognized qualifications.</p>
+                <h4>Campus &amp; Practical Learning</h4>
+                <h2>One Institute, Limitless Career Horizons in Bannu</h2>
+                <p>From foundational IT literacy to advanced software engineering, graphic media, and English fluency, our integrated curricula prepare students for thriving domestic and international careers.</p>
                 <ul>
-                  <li><span className="ti-check"></span> 9/10 Average Satisfaction Rate</li>
-                  <li><span className="ti-check"></span> 96% Completion Rate</li>
-                  <li><span className="ti-check"></span> Friendly Environment &amp; Expert Teachers</li>
+                  <li><span className="ti-check"></span> 98% Placement &amp; Certification Success Rate</li>
+                  <li><span className="ti-check"></span> 100% Practical Hands-on Studio &amp; Lab Training</li>
+                  <li><span className="ti-check"></span> Experienced Instructors &amp; Recognized Diplomas</li>
                 </ul>
               </div>
               <div className="cp_btn">
@@ -790,22 +794,23 @@ export default function HomePage() {
       <section className="team_member section-padding">
         <div className="container">
           <div className="section-title text-center">
-            <h4>Our Instructors</h4>
-            <h1>Our Expert Instructors</h1>
+            <h4>Certified Faculty</h4>
+            <h1>Meet Our Expert Faculty &amp; Mentors</h1>
+            <p>Dedicated instructors bringing real industry experience and academic passion to every classroom.</p>
           </div>
           <div className="row text-center">
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="our-team">
                 <div className="team-content">
-                  <h3 className="title">Stephen Cronin</h3>
-                  <span className="post">Designer</span>
+                  <h3 className="title">Engr. M. Qasim</h3>
+                  <span className="post">Director &amp; Senior Lead</span>
                   <div className="sth_det2">
-                    <span className="ti-file"> <u>5 Courses</u></span>
-                    <span className="ti-user"> <u>12 Students</u></span>
+                    <span className="ti-file"> <u>12 Courses</u></span>
+                    <span className="ti-user"> <u>2,800+ Students</u></span>
                   </div>
                 </div>
                 <div className="team_img">
-                  <img src="/assets/images/team/1.jpg" alt="Stephen Cronin" />
+                  <img src="/assets/images/team/1.jpg" alt="Engr. Muhammad Qasim" />
                   <ul className="social">
                     <li><a href="#" className="top_f_facebook"><i className="fa-brands fa-facebook"></i></a></li>
                     <li><a href="#" className="top_f_twitter"><i className="fa-brands fa-x-twitter"></i></a></li>
@@ -819,7 +824,7 @@ export default function HomePage() {
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="our-team">
                 <div className="team_img">
-                  <img src="/assets/images/team/2.jpg" alt="Rachel Park" />
+                  <img src="/assets/images/team/2.jpg" alt="Sir Arsalan" />
                   <ul className="social">
                     <li><a href="#" className="top_f_facebook"><i className="fa-brands fa-facebook"></i></a></li>
                     <li><a href="#" className="top_f_twitter"><i className="fa-brands fa-x-twitter"></i></a></li>
@@ -828,11 +833,11 @@ export default function HomePage() {
                   </ul>
                 </div>
                 <div className="team-content">
-                  <h3 className="title">Rachel Park</h3>
-                  <span className="post">Developer</span>
+                  <h3 className="title">Sir Arsalan</h3>
+                  <span className="post">English &amp; IELTS Specialist</span>
                   <div className="sth_det2">
-                    <span className="ti-file"> <u>19 Courses</u></span>
-                    <span className="ti-user"> <u>41 Students</u></span>
+                    <span className="ti-file"> <u>8 Courses</u></span>
+                    <span className="ti-user"> <u>1,800+ Students</u></span>
                   </div>
                 </div>
               </div>
@@ -841,15 +846,15 @@ export default function HomePage() {
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="our-team">
                 <div className="team-content">
-                  <h3 className="title">Dan Billson</h3>
-                  <span className="post">Marketer</span>
+                  <h3 className="title">Sir Ibrahim</h3>
+                  <span className="post">IT &amp; Technical Instructor</span>
                   <div className="sth_det2">
-                    <span className="ti-file"> <u>14 Courses</u></span>
-                    <span className="ti-user"> <u>33 Students</u></span>
+                    <span className="ti-file"> <u>10 Courses</u></span>
+                    <span className="ti-user"> <u>1,950+ Students</u></span>
                   </div>
                 </div>
                 <div className="team_img">
-                  <img src="/assets/images/team/3.jpg" alt="Dan Billson" />
+                  <img src="/assets/images/team/3.jpg" alt="Sir Ibrahim" />
                   <ul className="social">
                     <li><a href="#" className="top_f_facebook"><i className="fa-brands fa-facebook"></i></a></li>
                     <li><a href="#" className="top_f_twitter"><i className="fa-brands fa-x-twitter"></i></a></li>
@@ -863,7 +868,7 @@ export default function HomePage() {
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="our-team">
                 <div className="team_img">
-                  <img src="/assets/images/team/4.jpg" alt="Gina Mellow" />
+                  <img src="/assets/images/team/4.jpg" alt="Sir Farhan" />
                   <ul className="social">
                     <li><a href="#" className="top_f_facebook"><i className="fa-brands fa-facebook"></i></a></li>
                     <li><a href="#" className="top_f_twitter"><i className="fa-brands fa-x-twitter"></i></a></li>
@@ -872,11 +877,11 @@ export default function HomePage() {
                   </ul>
                 </div>
                 <div className="team-content">
-                  <h3 className="title">Gina Mellow</h3>
-                  <span className="post">Co-founder</span>
+                  <h3 className="title">Sir Farhan</h3>
+                  <span className="post">Hardware &amp; Networks</span>
                   <div className="sth_det2">
-                    <span className="ti-file"> <u>11 Courses</u></span>
-                    <span className="ti-user"> <u>27 Students</u></span>
+                    <span className="ti-file"> <u>7 Courses</u></span>
+                    <span className="ti-user"> <u>1,200+ Students</u></span>
                   </div>
                 </div>
               </div>
@@ -890,22 +895,23 @@ export default function HomePage() {
       <section className="testi_home_area section-padding">
         <div className="container">
           <div className="section-title text-center">
-            <h4>Testimonials</h4>
-            <h1>What Students Say About Al Qasim</h1>
+            <h4>Student Testimonials</h4>
+            <h1>What Our Graduated Students Say</h1>
+            <p>Real stories from alumni who built successful careers in software development, design, and language teaching.</p>
           </div>
           <div className="row g-4">
             <div className="col-lg-4 col-md-6 col-12">
               <div className="testimonial shadow-sm p-4 bg-white rounded-3 h-100">
                 <div className="testi_pic_title d-flex align-items-center mb-3">
                   <div className="pic me-3">
-                    <img src="/assets/images/all-img/t1.png" alt="Student Avatar" className="rounded-circle" width="60" height="60" />
+                    <img src="/assets/images/all-img/t1.png" alt="Ahmed Ali Khan" className="rounded-circle" width="60" height="60" />
                   </div>
                   <div>
-                    <h4 className="mb-0">Kallu Mastan</h4>
-                    <small className="text-muted">Diploma in IT Graduate</small>
+                    <h4 className="mb-0">Ahmed Ali Khan</h4>
+                    <small className="text-muted">Frontend Developer, TechSol</small>
                   </div>
                 </div>
-                <p>The practical project assignments and mentorship helped me secure my first remote software developer role immediately after graduation.</p>
+                <p>Al Qasim Institute Bannu helped me transition into a successful software developer role. The practical approach and expert guidance were invaluable.</p>
                 <div className="text-warning mt-3">
                   <i className="fa fa-star me-1"></i>
                   <i className="fa fa-star me-1"></i>
@@ -920,14 +926,14 @@ export default function HomePage() {
               <div className="testimonial shadow-sm p-4 bg-white rounded-3 h-100">
                 <div className="testi_pic_title d-flex align-items-center mb-3">
                   <div className="pic me-3">
-                    <img src="/assets/images/all-img/t2.png" alt="Student Avatar" className="rounded-circle" width="60" height="60" />
+                    <img src="/assets/images/all-img/t2.png" alt="Fatima Noor" className="rounded-circle" width="60" height="60" />
                   </div>
                   <div>
-                    <h4 className="mb-0">Kader Kaku</h4>
-                    <small className="text-muted">Graphic Design Student</small>
+                    <h4 className="mb-0">Fatima Noor</h4>
+                    <small className="text-muted">Full-Stack Developer</small>
                   </div>
                 </div>
-                <p>Outstanding experience! The curriculum is 100% focused on modern market standards and freelancing portfolio creation.</p>
+                <p>The courses are well-structured and the instructors are true industry experts. I landed my dream tech job within 3 months of completing my diploma.</p>
                 <div className="text-warning mt-3">
                   <i className="fa fa-star me-1"></i>
                   <i className="fa fa-star me-1"></i>
@@ -942,14 +948,14 @@ export default function HomePage() {
               <div className="testimonial shadow-sm p-4 bg-white rounded-3 h-100">
                 <div className="testi_pic_title d-flex align-items-center mb-3">
                   <div className="pic me-3">
-                    <img src="/assets/images/all-img/t3.png" alt="Student Avatar" className="rounded-circle" width="60" height="60" />
+                    <img src="/assets/images/all-img/t3.png" alt="Hassan Shah" className="rounded-circle" width="60" height="60" />
                   </div>
                   <div>
-                    <h4 className="mb-0">Mittha Hasina</h4>
-                    <small className="text-muted">English Language Master</small>
+                    <h4 className="mb-0">Hassan Shah</h4>
+                    <small className="text-muted">UI/UX Designer, Creative Studio</small>
                   </div>
                 </div>
-                <p>Great value, supportive teachers, and state-of-the-art computer labs. I strongly recommend everyone to enroll here.</p>
+                <p>The hands-on projects, modern labs, and real-world scenarios made learning engaging and practical. Highly recommended for ambitious students.</p>
                 <div className="text-warning mt-3">
                   <i className="fa fa-star me-1"></i>
                   <i className="fa fa-star me-1"></i>
@@ -968,20 +974,21 @@ export default function HomePage() {
       <section id="blog" className="blog_area section-padding">
         <div className="container">
           <div className="section-title text-center">
-            <h4>News &amp; Updates</h4>
-            <h1>Our Latest Articles</h1>
+            <h4>Campus News &amp; Insights</h4>
+            <h1>Latest Announcements &amp; Academic Updates</h1>
+            <p>Stay updated with semester schedules, new diploma admissions, and student achievements at Al Qasim Institute.</p>
           </div>
           <div className="row">
             <div className="col-lg-4 col-sm-4 col-xs-12">
               <div className="single_blog">
-                <img src="/assets/images/blog/1.jpg" className="img-fluid" alt="Blog 1" />
+                <img src="/assets/images/blog/1.jpg" className="img-fluid" alt="New Admissions Open" />
                 <div className="img_info">
-                  <span>August 26, 2025 | <a href="#">Education</a></span>
+                  <span>Admissions | <a href="/registration">Academic Notice</a></span>
                 </div>
                 <div className="content_box">
-                  <h2><Link href="/news">Professional Mobile Painting and Sculpting</Link></h2>
-                  <Link href="/news" className="cta">
-                    <span>Read More</span>
+                  <h2><Link href="/registration">New DIT &amp; English Proficiency Batches Open for 2026</Link></h2>
+                  <Link href="/registration" className="cta">
+                    <span>Read Details</span>
                     <svg width="13px" height="10px" viewBox="0 0 13 10">
                       <path d="M1,5 L11,5"></path>
                       <polyline points="8 1 12 5 8 9"></polyline>
@@ -993,14 +1000,14 @@ export default function HomePage() {
 
             <div className="col-lg-4 col-sm-4 col-xs-12">
               <div className="single_blog">
-                <img src="/assets/images/blog/2.jpg" className="img-fluid" alt="Blog 2" />
+                <img src="/assets/images/blog/2.jpg" className="img-fluid" alt="Annual Tech Expo" />
                 <div className="img_info">
-                  <span>August 28, 2025 | <a href="#">Design</a></span>
+                  <span>Exhibition | <a href="/gallery">Campus Events</a></span>
                 </div>
                 <div className="content_box">
-                  <h2><Link href="/news">Professional Ceramic Moulding for Beginner</Link></h2>
-                  <Link href="/news" className="cta">
-                    <span>Read More</span>
+                  <h2><Link href="/gallery">Annual Tech Expo &amp; Student Software Project Showcase</Link></h2>
+                  <Link href="/gallery" className="cta">
+                    <span>Read Details</span>
                     <svg width="13px" height="10px" viewBox="0 0 13 10">
                       <path d="M1,5 L11,5"></path>
                       <polyline points="8 1 12 5 8 9"></polyline>
@@ -1012,14 +1019,14 @@ export default function HomePage() {
 
             <div className="col-lg-4 col-sm-4 col-xs-12">
               <div className="single_blog">
-                <img src="/assets/images/blog/3.jpg" className="img-fluid" alt="Blog 3" />
+                <img src="/assets/images/blog/3.jpg" className="img-fluid" alt="Freelance Career Guide" />
                 <div className="img_info">
-                  <span>August 30, 2025 | <a href="#">Marketing</a></span>
+                  <span>Career | <a href="/courses">Guide &amp; Tips</a></span>
                 </div>
                 <div className="content_box">
-                  <h2><Link href="/news">Education Is About Creating Leaders For Tomorrow</Link></h2>
-                  <Link href="/news" className="cta">
-                    <span>Read More</span>
+                  <h2><Link href="/courses">Building a High-Income Tech Career from Khyber Pakhtunkhwa</Link></h2>
+                  <Link href="/courses" className="cta">
+                    <span>Read Details</span>
                     <svg width="13px" height="10px" viewBox="0 0 13 10">
                       <path d="M1,5 L11,5"></path>
                       <polyline points="8 1 12 5 8 9"></polyline>
@@ -1040,11 +1047,11 @@ export default function HomePage() {
             <div className="col-lg-6 col-sm-12 col-xs-12">
               <div className="single_ins">
                 <div className="single_ins_content">
-                  <h4>Build Your Career</h4>
-                  <h1>Become an Instructor</h1>
-                  <p>Learn at your own pace, move between multiple professional tracks.</p>
+                  <h4>Join Our Faculty</h4>
+                  <h1>Become a Certified Instructor</h1>
+                  <p>Share your industry experience, inspire passionate students, and grow as a recognized academic educator.</p>
                   <Link href="/careers" className="cta">
-                    <span>Apply Now</span>
+                    <span>Apply to Teach</span>
                     <svg width="13px" height="10px" viewBox="0 0 13 10">
                       <path d="M1,5 L11,5"></path>
                       <polyline points="8 1 12 5 8 9"></polyline>
@@ -1060,11 +1067,11 @@ export default function HomePage() {
             <div className="col-lg-6 col-sm-12 col-xs-12">
               <div className="single_ins">
                 <div className="single_ins_content">
-                  <h4>Build Your Career</h4>
-                  <h1>Get Free Guidance</h1>
-                  <p>Speak to our academic counselors for career pathways and scholarship options.</p>
+                  <h4>Student Counseling</h4>
+                  <h1>Get Free Academic Guidance</h1>
+                  <p>Speak to our educational counselors for program selection, career pathways, and installment options.</p>
                   <Link href="/contact" className="cta">
-                    <span>Contact Us</span>
+                    <span>Contact Counselor</span>
                     <svg width="13px" height="10px" viewBox="0 0 13 10">
                       <path d="M1,5 L11,5"></path>
                       <polyline points="8 1 12 5 8 9"></polyline>
@@ -1072,7 +1079,7 @@ export default function HomePage() {
                   </Link>
                 </div>
                 <div className="single_ins_img">
-                  <img src="/assets/images/all-img/free-course.png" className="img-fluid" alt="Free Courses" />
+                  <img src="/assets/images/all-img/free-course.png" className="img-fluid" alt="Free Guidance" />
                 </div>
               </div>
             </div>

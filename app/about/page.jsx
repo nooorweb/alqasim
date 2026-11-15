@@ -82,6 +82,65 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* OUR FOUNDATION: VISION, MISSION, VALUES */}
+        <section className="section-padding bg-white border-top">
+          <div className="container">
+            <SectionTitle
+              subtitle="Guiding Principles"
+              title="Our Foundation &"
+              highlight="Commitment"
+              description="Guided by strong institutional values that shape everything we do at Al Qasim Institute Bannu."
+            />
+
+            <div className="row g-4 mt-2">
+              <div className="col-lg-4 col-md-6 col-12">
+                <div className="p-4 rounded-4 bg-light border-top border-4 border-primary h-100 shadow-sm">
+                  <div className="d-flex align-items-center gap-3 mb-3">
+                    <div className="rounded-circle bg-primary bg-opacity-10 p-3 d-flex align-items-center justify-content-center" style={{ width: "52px", height: "52px" }}>
+                      <i className="fa-solid fa-eye text-primary fs-4"></i>
+                    </div>
+                    <h3 className="fs-5 fw-bold text-dark mb-0">Our Vision</h3>
+                  </div>
+                  <p className="text-muted leading-relaxed mb-0" style={{ lineHeight: "1.7" }}>
+                    To be a leading center of excellence that empowers learners with practical skills, strong knowledge, and professional confidence to thrive in a global environment and lead positive community impact.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-12">
+                <div className="p-4 rounded-4 bg-light border-top border-4 border-success h-100 shadow-sm">
+                  <div className="d-flex align-items-center gap-3 mb-3">
+                    <div className="rounded-circle bg-success bg-opacity-10 p-3 d-flex align-items-center justify-content-center" style={{ width: "52px", height: "52px" }}>
+                      <i className="fa-solid fa-bullseye text-success fs-4"></i>
+                    </div>
+                    <h3 className="fs-5 fw-bold text-dark mb-0">Our Mission</h3>
+                  </div>
+                  <p className="text-muted leading-relaxed mb-0" style={{ lineHeight: "1.7" }}>
+                    To provide accessible, high-quality education in English communication, computer technologies, and industrial trades through innovative teaching, real project work, and recognized accreditations.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-12">
+                <div className="p-4 rounded-4 bg-light border-top border-4 border-warning h-100 shadow-sm">
+                  <div className="d-flex align-items-center gap-3 mb-3">
+                    <div className="rounded-circle bg-warning bg-opacity-10 p-3 d-flex align-items-center justify-content-center" style={{ width: "52px", height: "52px" }}>
+                      <i className="fa-solid fa-heart text-warning fs-4"></i>
+                    </div>
+                    <h3 className="fs-5 fw-bold text-dark mb-0">Core Values</h3>
+                  </div>
+                  <ul className="list-unstyled text-muted mb-0 space-y-2">
+                    <li className="mb-2"><i className="fa-solid fa-check-circle text-warning me-2"></i><strong>Excellence:</strong> Highest instructional standards.</li>
+                    <li className="mb-2"><i className="fa-solid fa-check-circle text-warning me-2"></i><strong>Integrity:</strong> Honest and ethical practices.</li>
+                    <li className="mb-2"><i className="fa-solid fa-check-circle text-warning me-2"></i><strong>Innovation:</strong> Modern pedagogy and tools.</li>
+                    <li><i className="fa-solid fa-check-circle text-warning me-2"></i><strong>Opportunity:</strong> Equal access for all learners.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* CORE VALUES / WHY CHOOSE US */}
         <section className="section-padding" style={{ backgroundColor: "#f8faff" }}>
           <div className="container">
