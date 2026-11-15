@@ -1,4 +1,5 @@
 import BootstrapClient from "../components/providers/BootstrapClient";
+import WhatsAppButton from "../components/ui/WhatsAppButton";
 
 // Import CSS in the original template order:
 // 1. Bootstrap
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
       <body>
         <BootstrapClient />
         {children}
+        <WhatsAppButton />
       </body>
     </html>
   );

@@ -1,111 +1,16 @@
 "use client";
 
 import Link from "next/link";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 export default function HomePage() {
   return (
     <>
-      {/* START TOP HEADER CLASS */}
-      <div className="top_header_banner">
-        {/* START LOGO WITH CONTACT */}
-        <section className="logo-contact">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div className="single-top-contact">
-                  <i className="ti-mobile"></i>
-                  <h4><a href="tel:+4857548854826">+ 485 7548 8546</a></h4>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div className="single-top-contact">
-                  <i className="ti-email"></i>
-                  <h4><a href="mailto:example@gmail.com">example@mail.com</a></h4>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div className="single-top-contact">
-                  <i className="ti-alarm-clock"></i>
-                  <h4>Mon to Sat: 9am - 6pm</h4>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div className="top_social_profile">
-                  <ul>
-                    <li><a href="#" className="top_f_facebook"><i className="fa-brands fa-facebook"></i></a></li>
-                    <li><a href="#" className="top_f_twitter"><i className="fa-brands fa-x-twitter"></i></a></li>
-                    <li><a href="#" className="top_f_instagram"><i className="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#" className="top_f_linkedin"><i className="fa-brands fa-linkedin-in"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* END LOGO WITH CONTACT */}
+      <Header />
 
-        {/* START NAVBAR */}
-        <div id="navigation" className="navbar-light bg-faded site-navigation">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-20 align-self-center">
-                <div className="site-logo">
-                  <Link href="/"><img src="/assets/images/all-img/logo.png" alt="Purdue Logo" /></Link>
-                </div>
-              </div>
-
-              <div className="col-60 d-flex justify-content-center">
-                <nav id="main-menu">
-                  <ul>
-                    <li className="menu-item-has-children">
-                      <Link href="/">Home</Link>
-                      <ul>
-                        <li><Link href="/">Home One</Link></li>
-                      </ul>
-                    </li>
-                    <li><Link href="/about">About</Link></li>
-                    <li className="menu-item-has-children">
-                      <Link href="/courses">Course</Link>
-                      <ul>
-                        <li><Link href="/courses">All Courses</Link></li>
-                      </ul>
-                    </li>
-                    <li className="menu-item-has-children">
-                      <a href="#">Pages</a>
-                      <ul>
-                        <li><Link href="/admissions">Admissions</Link></li>
-                        <li><Link href="/registration">Online Registration</Link></li>
-                        <li><Link href="/departments">Departments</Link></li>
-                        <li><Link href="/faculty">Faculty & Trainers</Link></li>
-                        <li><Link href="/events">Events & Workshops</Link></li>
-                        <li><Link href="/gallery">Gallery</Link></li>
-                        <li><Link href="/careers">Career Opportunities</Link></li>
-                        <li><Link href="/verify-certificate">Certificate Verification</Link></li>
-                      </ul>
-                    </li>
-                    <li className="menu-item-has-children">
-                      <Link href="/news">News</Link>
-                      <ul>
-                        <li><Link href="/news">Latest News</Link></li>
-                      </ul>
-                    </li>
-                    <li><Link href="/contact">Contact</Link></li>
-                  </ul>
-                </nav>
-              </div>
-
-              <div className="col-30 d-none d-xl-block text-end align-self-center">
-                <div className="call_to_action d-inline-block">
-                  <Link className="btn_two" href="/registration">Enroll Now <i className="fa-solid fa-arrow-right"></i></Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* END NAVBAR */}
-
-        {/* START HOME */}
-        <section id="home" className="home_bg">
+      {/* START HOME */}
+      <section id="home" className="home_bg">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6 col-sm-6 col-xs-12">
@@ -142,8 +47,6 @@ export default function HomePage() {
           </div>
         </section>
         {/* END HOME */}
-      </div>
-      {/* END TOP HEADER CLASS */}
 
       {/* START COUNTER */}
       <section className="count_area counter_feature">
@@ -1041,102 +944,8 @@ export default function HomePage() {
       </section>
       {/* END NEWSLETTER */}
 
-      {/* START FOOTER */}
-      <div className="footer section-padding">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-3 col-sm-6 col-xs-12">
-              <div className="single_footer">
-                <Link href="/"><img src="/assets/images/all-img/logo.png" alt="Purdue Logo" /></Link>
-                <p>Dedicated to providing modern, industry-standard IT training, professional language skills, and career empowerment for ambitious students.</p>
-              </div>
-              <div className="foot_social">
-                <ul>
-                  <li><a href="#" className="top_f_facebook"><i className="fa-brands fa-facebook"></i></a></li>
-                  <li><a href="#" className="top_f_twitter"><i className="fa-brands fa-x-twitter"></i></a></li>
-                  <li><a href="#" className="top_f_instagram"><i className="fa-brands fa-instagram"></i></a></li>
-                  <li><a href="#" className="top_f_linkedin"><i className="fa-brands fa-linkedin-in"></i></a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-lg-2 col-sm-6 col-xs-12">
-              <div className="single_footer">
-                <h4>Courses</h4>
-                <ul>
-                  <li><Link href="/courses">English Mastery</Link></li>
-                  <li><Link href="/courses">Diploma in IT (DIT)</Link></li>
-                  <li><Link href="/courses">Web Development</Link></li>
-                  <li><Link href="/courses">Graphic Designing</Link></li>
-                  <li><Link href="/courses">Rigger Training</Link></li>
-                  <li><Link href="/courses">Computer Basics</Link></li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-lg-2 col-sm-6 col-xs-12">
-              <div className="single_footer">
-                <h4>Navigation</h4>
-                <ul>
-                  <li><Link href="/about">About Us</Link></li>
-                  <li><Link href="/admissions">Admissions</Link></li>
-                  <li><Link href="/departments">Departments</Link></li>
-                  <li><Link href="/faculty">Faculty</Link></li>
-                  <li><Link href="/careers">Careers</Link></li>
-                  <li><Link href="/verify-certificate">Verify Certificate</Link></li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-sm-6 col-xs-12">
-              <div className="single_footer">
-                <h4>Contact Info</h4>
-                <div className="sf_contact">
-                  <span className="ti-mobile"></span>
-                  <h3>Phone number</h3>
-                  <p>+88 457 845 695</p>
-                </div>
-                <div className="sf_contact">
-                  <span className="ti-email"></span>
-                  <h3>Email Address</h3>
-                  <p>info@globalacademy.com.pk</p>
-                </div>
-                <div className="sf_contact">
-                  <span className="ti-map"></span>
-                  <h3>Campus Address</h3>
-                  <p>Hinjal Gate Bannu City, Ameer Niazi Street</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-2 col-sm-6 col-xs-12">
-              <div className="single_footer">
-                <h4>Portal &amp; Verification</h4>
-                <p>Verify your issued course certificates and diplomas online through our student registry portal.</p>
-                <Link href="/verify-certificate" className="btn_two mt-2 d-inline-block">Verify Online</Link>
-              </div>
-            </div>
-          </div>
-
-          <div className="row fc mt-4 pt-3 border-top border-secondary">
-            <div className="col-lg-6 col-sm-6 col-xs-12">
-              <div className="footer_copyright">
-                <p>&copy; 2026 The Global English Language &amp; Computer Academy. All Rights Reserved.</p>
-              </div>
-            </div>
-            <div className="col-lg-6 col-sm-6 col-xs-12">
-              <div className="footer_menu">
-                <ul>
-                  <li><a href="#">Terms of use</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Support</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* END FOOTER */}
+      {/* FOOTER */}
+      <Footer />
     </>
   );
 }

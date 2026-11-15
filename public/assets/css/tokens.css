@@ -53,8 +53,8 @@
   --theme-font-size-body: 16px;
   --theme-line-height-body: 26px;
   
-  --theme-font-size-h1: 60px;
-  --theme-font-size-h2: 50px;
+  --theme-font-size-h1: 44px;             /* Scaled down from 60px */
+  --theme-font-size-h2: 36px;             /* Scaled down from 50px */
   --theme-font-size-h3: 28px;
   --theme-font-size-h4: 20px;
   --theme-font-size-h5: 18px;
@@ -92,7 +92,8 @@
   /* ------------------------------------------------------------------------
    * 5. Box Shadows
    * ------------------------------------------------------------------------ */
-  --theme-shadow-card: 0px 0px 150px 0px rgba(78, 67, 250, 0.1);
+  --theme-shadow-card: 0 10px 30px -5px rgba(26, 45, 98, 0.07);
+  --theme-card-border: 1px solid #eef2f6;
   --theme-shadow-card-hover: 0px 15px 35px 0px rgba(44, 122, 255, 0.15);
   --theme-shadow-team: 0 10px 40px -10px rgba(0, 64, 128, 0.09);
   --theme-shadow-btn: 10px 15px 18px rgba(23, 23, 36, 0.1);
